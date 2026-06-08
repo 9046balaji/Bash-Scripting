@@ -6,10 +6,13 @@ echo " now a and b are defined as outside the function so they are global variab
 
 global() {
  sum=$(($a+$b))
+ var="Balaji"
  echo " sum of $a and $b is : $sum"
+ echo " my name is $var"
 }
 
 global 
+echo variable var is declared inside the function without local keyword so it becomes gloabl variable"
 echo "if we defined the global varibale no need to pass that variables also since they are global "
 echo "the compliler takes directly the vaaiables"
 
