@@ -2,6 +2,8 @@
 
 array=("Balaji" "Konda" "Rao" "Guntur" "DevOps" "AWS")
 
+echo "${array[@]}"
+
 echo "to print a specific range of elements by specifying the starting index and total length"
 echo "${array[@]:1:3}"
 echo "-----------------"
